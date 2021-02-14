@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">  
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+  <body>
+   <div class="container-fluid" id="con1">
+     <div class="row">
+      <div class="col-md-4">
+        <img src="LogoMakr-1sotSn.png" id="signa1">
+        <img src="Untitled-1.png" class="img1" id="signa2">
+        <pre class="txt1" id="pre1">Developer &
+    Digital Manager
+</pre>
+     <p class="p1">Currently Studying Data Science <br>At Ziauddin University and doing <br>part time as Freelancer.</p>
+      <p class="p2" id="p2">Folio 2021</p> 
+      <p class="p3">Contact:<br>asadullahmaliyawala@gmail.com</p>
+      <ul>
+        <a href=""><li>About</li></a>
+        <a href=""><li>Services</li></a>
+        <a href=""><li>Work</li></a>
+      </ul>
+      <a href="" class="anh"><li class="li1">Introduction</li></a>
+    </div>
+       </div>
+</div> 
+   
+
+<script>
+      const signature = document.querySelector('#signa2');
+        signature.addEventListener('mousemove',(e) => {
+          let xAxis = (window.innerWidth/2 - e.pageX)/30;
+          let yAxis = (window.innerHeight/2 - e.pageY)/10;
+    
+          signature.style.transform = `rotateY(${yAxis}deg) rotateX(${xAxis}deg)`;
+        });
+    </script>   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
